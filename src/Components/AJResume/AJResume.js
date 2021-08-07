@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
+import NavBar2 from '../NavBar/NavBar2';
 import Resume from '../../images/aubreyjonesresume.jpg';
 
 
@@ -9,7 +9,7 @@ import Resume from '../../images/aubreyjonesresume.jpg';
 function AJResume() {
   return (
   <>
-  <NavBar />
+  <NavBar2 />
 <figure className="resumeImage"><img src={Resume}/></figure>
   </>
   );

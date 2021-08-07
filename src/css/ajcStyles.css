@@ -97,6 +97,10 @@ body {
   font-weight: 300;
   font-size: 16px; }
 
+#basic-nav-dropdown {
+  margin-top: 10px;
+  margin-left: 10px; }
+
 .portfolio-title {
   display: none; }
 
@@ -361,6 +365,9 @@ form.navbar-form {
     width: 100%; } }
 /* end media query */
 @media only screen and (min-width: 1024px) {
+  #basic-nav-dropdown {
+    margin-top: 10px; }
+
   .hero-text {
     margin-left: 40px; }
 
