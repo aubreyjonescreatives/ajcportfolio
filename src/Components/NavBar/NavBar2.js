@@ -20,7 +20,7 @@ function NavBar() {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
     <NavDropdown title="UX Case Studies" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Grocery Store App</NavDropdown.Item>
+          <NavDropdown.Item href="GroceryStoreApp">Grocery Store App</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.2">Tesla Solar</NavDropdown.Item>
           <NavDropdown.Divider />
