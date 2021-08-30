@@ -450,16 +450,21 @@ function GroceryStoreApp() {
 
   <Row className="section-row-c">
   <h1 className="header-ux-case-section" id="prototype">Prototype</h1>
-  <iframe className="prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDSh5JCxNCewzws3hEW7GoC%2Fgrocerystoreapp%3Fnode-id%3D403%253A1332%26scaling%3Dscale-down%26page-id%3D403%253A1326%26starting-point-node-id%3D403%253A1328"></iframe>
+  <iframe className="prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDSh5JCxNCewzws3hEW7GoC%2Fgrocerystoreapp%3Fnode-id%3D403%253A1332%26scaling%3Dscale-down%26page-id%3D403%253A1326%26starting-point-node-id%3D403%253A1328" title="A Prototype"></iframe>
   </Row>
 
 
 
   <Row className="section-row-a">
   <h1 className="header-ux-case-section" id="usabilitytesting">Usability Testing</h1>
-  <p className="overviewInfo">Instacart allows buyers to chat with their shoppers throughout the shopping experience. The shoppers can snap photos of current 
-  fresh food status and offer alternative options. Not many buyers I talked to knew of these Instacart features. Of course, Walmart, Target, and Smiths do not 
-  offer these features throughout the shopping process in their independent web apps. If apps were more consistent with user needs, would they gain more online shoppers?</p>
+  <Col sm={12} md={12} lg={12}>
+  <p className="overviewInfo">If apps were more consistent with user needs, would they gain more online shoppers? I created a Maze usability test
+  based upon my small screen prototype to test the flow for creating an account and adding items to a cart.</p>
+  </Col>
+  <Col sm={12} md={12} lg={12}>
+  <iframe className="prototype" src="https://t.maze.co/50429884" title="A User Test"></iframe>
+  
+  </Col>
   </Row>
 
   <Row className="section-row-b">
