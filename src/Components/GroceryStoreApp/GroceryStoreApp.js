@@ -21,6 +21,12 @@ import largegscart from '../../images/grocerystoreapp/lowfidelitywireframes/Groc
 import smallgscart2 from '../../images/grocerystoreapp/lowfidelitywireframes/Grocery Store Cart Screen iPhone.jpg'
 import mediumgscart2 from '../../images/grocerystoreapp/lowfidelitywireframes/Grocery Store Shop Screen iPad-1.jpg'
 import largegscart2 from '../../images/grocerystoreapp/lowfidelitywireframes/Grocery Store Shop Screen MacBook Pro-1.jpg'
+
+import patternlibrary from '../../images/grocerystoreapp/patternlibrary/patternlibrary.png'
+import patternlibrary2 from '../../images/grocerystoreapp/patternlibrary/patternlibrary2.png'
+import patternlibrary3 from '../../images/grocerystoreapp/patternlibrary/patternlibrary3.png'
+
+
 import smallLoadingHF from '../../images/grocerystoreapp/hifidelitywireframes/loadingscreeniphone.png'
 import mediumLoadingHF from '../../images/grocerystoreapp/hifidelitywireframes/loadingscreenipad.png'
 import largeLoadingHF from '../../images/grocerystoreapp/hifidelitywireframes/loadingscreenmackbook.png'
@@ -68,6 +74,7 @@ function GroceryStoreApp() {
     <Col><div><a href="#customerjourneymap">Customer Journey Map</a></div></Col>
     <Col><div><a href="#sketches">Sketches</a></div></Col>
     <Col><div><a href="#lowfidelitywireframes">Low Fidelity Wireframes</a></div></Col>
+    <Col><div><a href="#patternlibrary">Pattern Library</a></div></Col>
     <Col><div><a href="#hifidelitywireframes">Hi Fidelity Wireframes</a></div></Col>
     <Col><div><a href="#prototype">Prototype</a></div></Col>
     <Col><div><a href="#usabilitytesting">Usability Testing</a></div></Col>
@@ -315,13 +322,19 @@ function GroceryStoreApp() {
 
 
   <Row className="section-row-a">
-<Col  sm={12} md={5} lg={12}>
-<p>With the low fidelity wireframes now in place, it was time to create my style guide. I wanted colors that psychologically resembled fresh food, which is 
+    
+  <h1 className="header-ux-case-section" id="patternlibrary">Pattern Library</h1>
+<Col  sm={12} md={12} lg={12}>
+<p className="overviewInfo">With the low fidelity wireframes now in place, it was time to create my pattern library. I wanted colors that psychologically resembled fresh food, which is 
   why I chose the color green as my primary color. I wanted easy to read font, which is why I went with the Roboto font family. The logo consists of the I and F 
   in InstaFresh with the I acting as brocoli to hint at fresh foods. 
 </p>
 </Col>
-
+<Row className="a-image">
+  <Col sm={12} md={6} lg={4}> <figure className="GSImage"><img src={patternlibrary} alt="Pattern Library"/></figure></Col>
+  <Col sm={12} md={6} lg={4}> <figure className="GSImage"><img src={patternlibrary2} alt="Pattern Library 2"/></figure></Col>
+  <Col sm={12} md={6} lg={4}> <figure className="GSImage"><img src={patternlibrary3} alt="Pattern Library 3"/></figure></Col>
+</Row>
 
   </Row>
 

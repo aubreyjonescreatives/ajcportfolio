@@ -422,6 +422,16 @@ Col {
     width: 400px;
     height: 900px;
     margin: 50px auto; }
+  .section-row-a .GSImage {
+    width: 100%;
+    margin: 50px auto; }
+  .section-row-a .GSImage img {
+    width: 100%; }
+  .section-row-a .a-image {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto; }
 
 .section-row-b {
   width: 100%; }
