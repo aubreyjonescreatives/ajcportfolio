@@ -475,10 +475,10 @@ function GroceryStoreApp() {
   based upon my small screen prototype to test the flow for creating an account and adding items to a cart.</p>
   </Col>
   <Col sm={12} md={12} lg={12}>
-  <iframe className="prototype" src="https://t.maze.co/50429884" title="A User Test"></iframe>
+  <iframe className="prototype" src="https://t.maze.co/50429884?guerilla=true" title="A User Test"></iframe>
   
 
-  
+
   </Col>
   </Row>
 
