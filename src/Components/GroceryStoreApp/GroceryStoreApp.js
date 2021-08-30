@@ -472,7 +472,7 @@ function GroceryStoreApp() {
   <h1 className="header-ux-case-section" id="usabilitytesting">Usability Testing</h1>
   <Col sm={12} md={12} lg={12}>
   <p className="overviewInfo">If apps were more consistent with user needs, would they gain more online shoppers? I created a Maze usability test
-  based upon my small screen prototype to test the flow for creating an account and adding items to a cart.</p>
+  based upon my small screen prototype to test the flows for creating an account and adding items to a cart.</p>
   </Col>
   <Col sm={12} md={12} lg={12}>
   <iframe className="prototype" src="https://t.maze.co/50429884?guerilla=true" title="A User Test"></iframe>
