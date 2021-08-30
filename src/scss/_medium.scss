@@ -9,6 +9,12 @@
 
 
 
+  .caseStudy {
+    clear: both; 
+    margin-top: 250px; 
+   }
+  
+  
 
     
 .hero-text-2 {
@@ -29,6 +35,29 @@
   }
 
 
+  
+  .gsNav {
+    clear: both; 
+    z-index: 999; 
+    position: fixed; 
+    background-color: $fontColor; 
+    margin-top: -120px; 
+    width: 100%; 
+
+  }
+
+  .gsNav div {
+    padding: 7px 0px; 
+  // border: 1px solid $primaryColor; 
+    
+  }
+
+  .gsNav div a {
+   border-right: 1px solid $primaryColor; 
+   border-bottom: 1px solid $primaryColor;
+   margin-top: 0px;
+  }
+
 
   
 .hero-container {
@@ -39,6 +68,7 @@
   }
 
 
-  
-  
+  .gsheroHeader {
+   // margin-top: 100px; 
+  }
   

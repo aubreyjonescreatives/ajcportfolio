@@ -22,7 +22,7 @@ function NavBar() {
     <Nav.Link className="navbar-link" href="#skills">Skills</Nav.Link>
 
 
-    <NavDropdown title="UX Case Studies" id="basic-nav-dropdown">
+    <NavDropdown title="UX/UI Case Studies" id="basic-nav-dropdown">
           <NavDropdown.Item href="GroceryStoreApp">Grocery Store App</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action/3.2">Tesla Solar</NavDropdown.Item>
