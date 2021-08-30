@@ -79,7 +79,7 @@ function GroceryStoreApp() {
   <Col sm={12} md={6} lg={6}>
   <h1 className="gsheroHeader">A Grocery Store UX/UI Design Case Study</h1>
   </Col>
-  <Col sm={12} md={6} lg={6}> <figure className="gs-logoImage"><img src={logo}/></figure></Col>
+  <Col sm={12} md={6} lg={6}> <figure className="gs-logoImage"><img src={logo} alt="logo"/></figure></Col>
   </Row>
   <Row className="section-row-a">
   <h1 className="header-ux-case-section" id="overview">Overview</h1>
@@ -115,7 +115,7 @@ function GroceryStoreApp() {
   <p className="overviewInfo">I had a general idea of my audience as I began my research. 
   Meet Jake Waters, a proto persona as he tries to provide healthy food for his busy family.</p>
   </Col>
-  <Col sm={12} md={12} lg={6}><figure className="researchStats"><img src={protoPersona}/></figure></Col>
+  <Col sm={12} md={12} lg={6}><figure className="researchStats"><img src={protoPersona} alt="proto persona"/></figure></Col>
   </Row>
 
 
@@ -128,7 +128,7 @@ function GroceryStoreApp() {
   consumers to grocery shop online. I received a high satifaction report regarding grocery shop website/app recommendations from a random pool of consumers. 
   66.7% of them said they would recommend their preferred grocery shop website/app while just 33.3% of them said they would not suggest it to others.</p>
   </Col>
-  <Col sm={12} md={12} lg={6}><figure className="researchStats"><img src={referfriend}/></figure></Col>
+  <Col sm={12} md={12} lg={6}><figure className="researchStats"><img src={referfriend} alt="research"/></figure></Col>
   </Row>
 
   <Row className="section-row-d">
@@ -173,7 +173,7 @@ function GroceryStoreApp() {
   fresh food status and offer alternative options. Not many buyers I talked to knew of these Instacart features. Of course, Walmart, Target, and Smiths do not 
   offer these features throughout the shopping process in their independent web apps. If apps were more consistent with user needs, would they gain more online shoppers?</p>
   </Col>
-  <Col sm={12} md={12} lg={7}><figure className="researchStats"><img src={CAC}/></figure></Col>
+  <Col sm={12} md={12} lg={7}><figure className="researchStats"><img src={CAC} alt="Competitive Analysis Chart"/></figure></Col>
  </Row>
 
   <Row className="section-row-a">
@@ -183,8 +183,8 @@ function GroceryStoreApp() {
   </Col>
   </Row>
   <Row className="section-row-a">
-  <Col sm={12} md={6} lg={6}><figure className="researchStats"><img src={journeyMap}/></figure></Col>
-  <Col sm={12} md={6} lg={6}><figure className="researchStats"><img src={journeyMap2}/></figure></Col>
+  <Col sm={12} md={6} lg={6}><figure className="researchStats"><img src={journeyMap} alt="Journey Map"/></figure></Col>
+  <Col sm={12} md={6} lg={6}><figure className="researchStats"><img src={journeyMap2} alt="Journey Map 2nd Page"/></figure></Col>
   </Row>
 
 
@@ -206,15 +206,15 @@ function GroceryStoreApp() {
   <Row className="screens">
   <Col sm={12} md={2} lg={2}>
   <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallLoading}/></figure>
+  <figure className="GSImage"><img src={smallLoading} alt="lo-fi-wireframe"/></figure>
   </Col >
   <Col sm={12} md={5} lg={4}>
   <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumLoading}/></figure>
+  <figure className="GSImage"><img src={mediumLoading} alt="lo-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largeLoading}/></figure>
+  <figure className="GSImage"><img src={largeLoading} alt="lo-fi-wireframe"/></figure>
   </Col>
   </Row>
   <h1 className="header-0">2. Login Screen</h1>
@@ -222,15 +222,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallLogin}/></figure>
+  <figure className="GSImage"><img src={smallLogin} alt="lo-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumLogin}/></figure>
+  <figure className="GSImage"><img src={mediumLogin} alt="lo-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largeLogin}/></figure>
+  <figure className="GSImage"><img src={largeLogin} alt="lo-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -239,15 +239,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallsignup}/></figure>
+  <figure className="GSImage"><img src={smallsignup} alt="lo-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumsignup}/></figure>
+  <figure className="GSImage"><img src={mediumsignup} alt="lo-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largesignup}/></figure>
+  <figure className="GSImage"><img src={largesignup} alt="lo-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -258,15 +258,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallgsshop}/></figure>
+  <figure className="GSImage"><img src={smallgsshop} alt="lo-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumgsshop}/></figure>
+  <figure className="GSImage"><img src={mediumgsshop} alt="lo-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largegsshop}/></figure>
+  <figure className="GSImage"><img src={largegsshop} alt="lo-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -278,15 +278,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallgscart}/></figure>
+  <figure className="GSImage"><img src={smallgscart} alt="lo-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumgscart}/></figure>
+  <figure className="GSImage"><img src={mediumgscart} alt="lo-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largegscart}/></figure>
+  <figure className="GSImage"><img src={largegscart} alt="lo-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -298,15 +298,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallgscart2}/></figure>
+  <figure className="GSImage"><img src={smallgscart2} alt="lo-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumgscart2}/></figure>
+  <figure className="GSImage"><img src={mediumgscart2} alt="lo-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largegscart2}/></figure>
+  <figure className="GSImage"><img src={largegscart2} alt="lo-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -333,15 +333,15 @@ function GroceryStoreApp() {
   <Row className="screens">
   <Col sm={12} md={2} lg={2}>
   <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallLoadingHF}/></figure>
+  <figure className="GSImage"><img src={smallLoadingHF} alt="hi-fi-wireframe"/></figure>
   </Col >
   <Col sm={12} md={5} lg={4}>
   <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumLoadingHF}/></figure>
+  <figure className="GSImage"><img src={mediumLoadingHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largeLoadingHF}/></figure>
+  <figure className="GSImage"><img src={largeLoadingHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   </Row>
   <h1 className="header-0">2. Login Screen</h1>
@@ -349,15 +349,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallLoginHF}/></figure>
+  <figure className="GSImage"><img src={smallLoginHF} alt="hi-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumLoginHF}/></figure>
+  <figure className="GSImage"><img src={mediumLoginHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largeLoginHF}/></figure>
+  <figure className="GSImage"><img src={largeLoginHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -368,15 +368,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallsignupHF}/></figure>
+  <figure className="GSImage"><img src={smallsignupHF} alt="hi-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumsignupHF}/></figure>
+  <figure className="GSImage"><img src={mediumsignupHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largesignupHF}/></figure>
+  <figure className="GSImage"><img src={largesignupHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -387,15 +387,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallshopHF}/></figure>
+  <figure className="GSImage"><img src={smallshopHF} alt="hi-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumshopHF}/></figure>
+  <figure className="GSImage"><img src={mediumshopHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largeshopHF}/></figure>
+  <figure className="GSImage"><img src={largeshopHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -406,15 +406,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallcartHF}/></figure>
+  <figure className="GSImage"><img src={smallcartHF} alt="hi-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumcartHF}/></figure>
+  <figure className="GSImage"><img src={mediumcartHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largecartHF}/></figure>
+  <figure className="GSImage"><img src={largecartHF} alt="hi-fi-wireframe"/></figure>
   </Col>
   </Row>
 
@@ -424,15 +424,15 @@ function GroceryStoreApp() {
   <Row className="screens">
  <Col sm={12} md={2} lg={2}>
  <h1 className="gsHeader-1">Mobile</h1>
-  <figure className="GSImage"><img src={smallcart2HF}/></figure>
+  <figure className="GSImage"><img src={smallcart2HF} alt="hi-fi-wireframe"/></figure>
   </Col>
  <Col sm={12} md={5} lg={4}>
  <h1 className="gsHeader-1">Tablet</h1>
-  <figure className="GSImage"><img src={mediumcart2HF}/></figure>
+  <figure className="GSImage"><img src={mediumcart2HF} alt="hi-fi-wireframe"/></figure>
   </Col>
   <Col sm={12} md={5} lg={5}>
   <h1 className="gsHeader-1">Desktop</h1>
-  <figure className="GSImage"><img src={largecart2HF}/></figure>
+  <figure className="GSImage"><img src={largecart2HF} alt="hi-fi-wireframe"/></figure>
   </Col>
   </Row>
 
