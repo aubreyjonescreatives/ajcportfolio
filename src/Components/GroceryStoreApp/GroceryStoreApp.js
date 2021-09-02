@@ -59,6 +59,13 @@ import CAC from '../../images/grocerystoreapp/competitoranalysischart/competitor
 import journeyMap from '../../images/grocerystoreapp/journeymap/gsjourneymap.png'
 import journeyMap2 from '../../images/grocerystoreapp/journeymap/gsjourneymap2.png'
 
+import sketch1 from '../../images/grocerystoreapp/sketches/sketch1.jpg'
+import sketch2 from '../../images/grocerystoreapp/sketches/sketch2.jpg'
+import sketch3 from '../../images/grocerystoreapp/sketches/sketch3.jpg'
+
+import hype3video from '../../videos/instafreshanimation.mp4'
+
+
 
 
 function GroceryStoreApp() {
@@ -200,15 +207,23 @@ function GroceryStoreApp() {
 
   <Row className="section-row-b">
   <h1 className="header-ux-case-section" id="sketches">Sketches</h1>
-  <p className="overviewInfo">Instacart allows buyers to chat with their shoppers throughout the shopping experience. The shoppers can snap photos of current 
-  fresh food status and offer alternative options. Not many buyers I talked to knew of these Instacart features. Of course, Walmart, Target, and Smiths do not 
-  offer these features throughout the shopping process in their independent web apps. If apps were more consistent with user needs, would they gain more online shoppers?</p>
+  <p className="overviewInfo">Sketching out app ideas really helps save time from the design process. 
+  With my user research and competitor analysis chart, I could really determine what my customers wanted and lacked in current popular 
+  grocery store apps. I wanted to keep the positive mental models and lose the negative mental models. This helped give me a head start with sketching out 
+  app ideas.</p>
+  <Row>
+<Col  sm={12} md={6} lg={4}><figure className="researchStats"><img src={sketch1} alt="Mobile Sketches"/></figure></Col>
+<Col  sm={12} md={6} lg={4}><figure className="researchStats"><img src={sketch2} alt="Tablet Sketches"/></figure></Col>
+<Col  sm={12} md={6} lg={4}><figure className="researchStats"><img src={sketch3} alt="Desktop Sketches"/></figure></Col>
+  </Row>
   </Row>
 
   
   <Row className="section-row-c">
  
   <h1 className="header-ux-case-section" id="lowfidelitywireframes">Low Fidelity Wireframes</h1>
+  <p className="overviewInfo">I needed to keep the sketches that worked best and implemented their features into low fidelity designs. I created them 
+  using Figma and a design system Figma plugin for Apple iOS.</p>
   <h1 className="header-0">1. Loading Screen</h1>
   <Row className="screens">
   <Col sm={12} md={2} lg={2}>
@@ -334,6 +349,14 @@ function GroceryStoreApp() {
   <Col sm={12} md={6} lg={4}> <figure className="GSImage"><img src={patternlibrary} alt="Pattern Library"/></figure></Col>
   <Col sm={12} md={6} lg={4}> <figure className="GSImage"><img src={patternlibrary2} alt="Pattern Library 2"/></figure></Col>
   <Col sm={12} md={6} lg={4}> <figure className="GSImage"><img src={patternlibrary3} alt="Pattern Library 3"/></figure></Col>
+</Row>
+
+<h1 className="header-ux-case-section" id="patternlibrary">Logo Animation for Loading Screen created in Hype3 Pro</h1>
+
+<Row>
+  <video className="hypeVideo" controls>
+    <source src={hype3video} type="video/mp4" />
+  </video>
 </Row>
 
   </Row>
@@ -471,8 +494,9 @@ function GroceryStoreApp() {
   <Row className="section-row-a">
   <h1 className="header-ux-case-section" id="usabilitytesting">Usability Testing</h1>
   <Col sm={12} md={12} lg={12}>
-  <p className="overviewInfo">If apps were more consistent with user needs, would they gain more online shoppers? I created a Maze usability test
-  based upon my small screen prototype to test the flows for creating an account and adding items to a cart.</p>
+  <p className="overviewInfo">If apps were more consistent with user needs, would they gain more online shoppers and become competitive with businesses like Amazon? 
+  I created a Maze usability test based upon my small screen prototype to test the flows for creating an account and adding items to a cart. I have shared it with people 
+  over social media. Maze also makes it live and accessible through their website.</p>
   </Col>
   <Col sm={12} md={12} lg={12}>
   <iframe className="prototype" src="https://t.maze.co/50429884?guerilla=true" title="A User Test"></iframe>
@@ -484,9 +508,7 @@ function GroceryStoreApp() {
 
   <Row className="section-row-b">
   <h1 className="header-ux-case-section" id="utfeedback">Usability Testing Feedback</h1>
-  <p className="overviewInfo">Instacart allows buyers to chat with their shoppers throughout the shopping experience. The shoppers can snap photos of current 
-  fresh food status and offer alternative options. Not many buyers I talked to knew of these Instacart features. Of course, Walmart, Target, and Smiths do not 
-  offer these features throughout the shopping process in their independent web apps. If apps were more consistent with user needs, would they gain more online shoppers?</p>
+  <p className="overviewInfo">I am currently working on gathering Usability Testing Feedback. Please feel free to submit feedback with my Maze usability test above. Thank you for your time.</p>
   </Row>
 
 

@@ -461,7 +461,13 @@ justify-content: center;
 }
 
 
-
+.hypeVideo {
+  display: block; 
+  margin: 100px auto; 
+  width: 50%; 
+  height: 300px; 
+ 
+}
 
 
 .section-row-a {
@@ -549,6 +555,21 @@ p {
     padding: 10px; 
   }
 
+
+  
+
+.researchStats {
+  width: 100%; 
+ 
+}
+
+.researchStats img {
+  display: block; 
+  width: 100%; 
+  margin: auto; 
+  padding: 10px; 
+  height: 500px; 
+}
 
  
 .overviewInfo {

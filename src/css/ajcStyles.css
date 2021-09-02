@@ -396,6 +396,12 @@ Col {
   margin-top: 100px;
   width: 100%; }
 
+.hypeVideo {
+  display: block;
+  margin: 100px auto;
+  width: 50%;
+  height: 300px; }
+
 .section-row-a {
   background-color: #429EA6;
   width: 100%; }
@@ -437,6 +443,14 @@ Col {
   width: 100%; }
   .section-row-b p {
     padding: 10px; }
+  .section-row-b .researchStats {
+    width: 100%; }
+  .section-row-b .researchStats img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    height: 500px; }
   .section-row-b .overviewInfo {
     display: block;
     text-align: center;
